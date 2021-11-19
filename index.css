@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");*{
+
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+     font-family: lobster;
+}
+.header{
+    background-color:rgb(197, 231, 252);
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ollist{
+
+    background-color: rgb(179, 153, 229);
+    display: flex;
+    border-radius: 25% 10%;
+    font-size: 50px;
+    
+    
+
+}
