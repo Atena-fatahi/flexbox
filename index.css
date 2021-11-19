@@ -22,7 +22,19 @@ body{
     display: flex;
     border-radius: 25% 10%;
     font-size: 50px;
+    justify-content: space-between;
     
     
 
+}
+.ollist:hover{
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+.ollist li{
+
+  width: 10vw;
+  height: 5vh;
+  padding: 1.875rem 1.875rem;
 }
