@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.h1{
+    
+   margin-top: 2.75rem;
+   margin-bottom: 1.75rem;
+   text-align: center;
+}
+.a1 {
+   
+    color: rgb(0, 238, 255);
+
+}
+
+.header {
+    background-color:rgb(197, 231, 252);
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ul-list {
+
+    background-color: rgb(208, 209, 209);
+    display: flex;
+    border-radius:0.625rem 6.25rem / 7.5rem;
+    justify-content: space-between;
+    
+    
+
+}
+.ul-list:hover {
+
+    box-shadow: 12px 12px 2px 1px rgb(255, 255, 255);
+    transition: 00.5s;
+
+}
+.ul-list li {
+
+  width: 10vw;
+  height: 5vh;
+  padding: 1.875rem 1.875rem;
+}
+.ul-list li a{
+    font-size: 1.5rem;
+    color: black;
+    transition: margin-right 2s .5s;
+}
+.ul-list li a:hover {
+
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    transition: 00.5s;
+
+}
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 3.125rem 1.25rem;
+}
+.section-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+    background-color:rgb(197, 231, 252);
+    margin: 0.650rem;
+    border-radius: 0.625rem;
+}
+.section-list:hover {
+    box-shadow:12px 12px 2px 1px rgb(208, 209, 209);
+    transition: 0.5s; 
+}
+.section-list h3:hover {
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.al:hover{
+ color: crimson;
+ transition: 0.5s;
+ font-size: 2rem;
+}
+.para{
+    border:0.188rem dashed darkgray;
+    border-radius: 0.375rem;
+    padding: 50px;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.para:hover{
+    box-shadow: 0 0 0.875rem  rgb(84, 181, 255);
+}
+
+.para h2:hover{
+    font-size: 2rem;
+    text-shadow: 0 0 0.2rem lightslategray;
+    transition: 0.5s;
+}
+.para strong:hover{
+font-size: 1.25rem;
+transition: 0.5s;
+
+}
+.para p{
+     line-height: 2rem;
+}
